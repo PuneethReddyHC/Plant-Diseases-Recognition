@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from keras.preprocessing import image
 import numpy as np
-from .deeplearning import graph, model, output_list
+from deeplearning import graph, model, output_list
 import base64
 
 
