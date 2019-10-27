@@ -3,7 +3,7 @@ from keras.models import load_model
 # global graph, model, output_list
 
 graph = tf.get_default_graph()
-model = load_model('gdrive/My\ Drive/AlexNetModel.hdf5')
+model = load_model('gdrive/My\ Drive/AlexNetModel.h5')
 
 output_dict = {'Apple___Apple_scab': 0,
                'Apple___Black_rot': 1,
