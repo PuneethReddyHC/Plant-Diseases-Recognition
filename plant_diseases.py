@@ -84,9 +84,9 @@ test_datagen = ImageDataGenerator(rescale=1./255)
 
 batch_size = 32
 
-train_data_dir = ""     # directory of training data
+train_data_dir = "/kaggle/input/dataset_itr2/dataset_itr2/train"     # directory of training data
 
-test_data_dir = ""      # directory of test data
+test_data_dir = "/kaggle/input/dataset_itr2/dataset_itr2/test"      # directory of test data
 
 training_set = train_datagen.flow_from_directory(train_data_dir,
                                                  target_size=(224, 224),
